@@ -1,23 +1,31 @@
 package com.example;
 
+
 /**
- * This is a class.
+ * @author Intro
+ *
  */
 public class Greeter {
 
-  /**
-   * This is a constructor.
-   */
+
   public Greeter() {
 
   }
 
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+
+ /**
+ * @param someone
+ * @return
+ */
+  public String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
   
-  public String sayHello() {
+  
+ /**
+ * @return
+ */
+public String sayHello() {
 	  return "Hello";
   }
 }
