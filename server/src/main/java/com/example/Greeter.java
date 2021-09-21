@@ -23,7 +23,7 @@ public class Greeter {
    * @param someone description de argument.
    * @return string.
    */
-  public String greet(String someone) {
+  public String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
   
