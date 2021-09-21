@@ -12,7 +12,7 @@ package com.example;
 public class Greeter {
 
   /**
-   * This is the constructor
+   * This is the constructor.
    *
    */
   public Greeter() {
