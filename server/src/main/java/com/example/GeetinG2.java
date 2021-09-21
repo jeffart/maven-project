@@ -24,7 +24,7 @@ public class GeetinG2 {
    * @param world first arg
    * @return string
    */
-  public String greet(String world) {
+  public final String greet(final String world) {
     return String.format("Hello, %s!", world);
   }
 
